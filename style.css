@@ -1,0 +1,81 @@
+/*
+	STYLE.CSS:
+	One stylesheet to rule them all.
+
+	selector { property:value }
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Copse|Roboto+Condensed');
+
+.front-image{
+
+	background-image: url("http://i2.mirror.co.uk/incoming/article8075004.ece/ALTERNATES/s615b/Harambe.jpg");
+	height: 500px;
+	background-position: top;
+	/*text-align: center;*/
+}
+header {
+
+}
+main {
+
+}
+
+footer {
+
+}
+
+body{
+	font-family: 'Copse', serif;
+  background-color: #1E1E24;
+  text-align: center;
+	margin: 5%;
+}
+
+
+h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	color: white;
+	font-size: 10em;
+	padding: 100px;
+	margin: 0;
+
+}
+
+h3{
+	text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	color: white;
+	font-size: 3em;
+}
+
+p{
+	text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	color: white;
+	font-size: 1.5em;
+	width: auto;
+}
+a {
+	text-shadow: -1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+	color: white;
+	font-size: 0.5em;
+
+}
+a:link    { color: white; }
+a:visited { color: gray; }
+a:hover   { color: red; }
+a:active	{color:  blue}
+}
